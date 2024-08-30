@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+#num {
+    height: 50px;
+    width: 48%;
+    color: black;
+    /* background-color: aqua; */
+    float: left;
+}
+#e1 {
+    height: 25px;
+    width: 20px;
+    margin-left: 30px;
+}
+#e2 {
+    height: 2px;
+    width: auto;
+    margin-left: 60px;
+    margin-top: -15px;
+}
+#mail {
+    height: 50px;
+    width: 49%;
+    color: #000;
+    float: right;
+}
+#e3 {
+    height: 25px;
+    width: 20px;
+    margin-left: 170px;
+}
+#e4 {
+    height: 2px;
+    width: auto;
+    margin-left: 190px;
+    margin-top: -15px;
+}
+.lis  {
+    
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    color: white; 
+}
+.lis li{
+    margin-left: 80px;
+   
+}
+.lis a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20PX;
+    
+}
+#m2
+{
+    background-color: rgb(4, 4, 46);
+    color: white;
+}
+
+
+#imgContainer {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url('img/car2pexels-photo-3822843.webp');
+    background-size: cover;
+    background-position: center;
+}
+#img1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+#img1 img {
+    width: 300px;
+    height: auto;
+}
+#para
+{
+    color: white;
+    margin-left: 70px;
+
+}
+#b1
+{
+    background-color: red;
+    color: white;
+    padding: 1px 1px 1px 1px;
+    height: 50px;
+    width: 15%;
+    margin-left: 45%;
+
+}
+.ca
+{
+    height: 300px;
+    width: 100px;
+}
+#para1
+{
+    margin-left:15%;
+
+}
+#i1
+{
+    height: 10px;
+    flex-basis: 30%;
+    
+}
+#m5
+{
+    margin-left: 20%;
+    flex-basis: 30%;
+
+}
+
